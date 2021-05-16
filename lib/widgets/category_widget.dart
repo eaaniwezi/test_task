@@ -7,7 +7,7 @@ class CategoryWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 90.0,
+      height: 150.0,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: _categories.length,

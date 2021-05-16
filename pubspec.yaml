@@ -52,6 +52,9 @@ flutter:
     - images/image/ads.png
     - images/image/chats.png
     - images/image/like.png
+    - images/image/paper.png
+    - images/image/table.png
+    - images/image/computer.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
