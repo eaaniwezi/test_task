@@ -6,47 +6,6 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // body: Container(
-      //   height: MediaQuery.of(context).size.height,
-      //   width: MediaQuery.of(context).size.width,
-      //   decoration: BoxDecoration(
-      //     gradient: LinearGradient(
-      //       begin: Alignment.topCenter,
-      //       end: Alignment.bottomCenter,
-      //       stops: [.1, .4, .7, .9],
-      //       colors: [
-      //         Colors.pink[400],
-      //         Colors.pink[400],
-      //         Colors.purple[700],
-      //         Colors.purple[700],
-      //       ],
-      //     ),
-      //   ),
-      //   child: Padding(
-      //     padding:
-      //         const EdgeInsets.only(top: 45, left: 15, right: 15, bottom: 15),
-      //     child: SingleChildScrollView(
-      //       child: Column(
-      //         mainAxisAlignment: MainAxisAlignment.start,
-      //         children: [
-      //           Text(
-      //             "Главная",
-      //             style: TextStyle(
-      //               fontWeight: FontWeight.w600,
-      //               color: Colors.white,
-      //               fontSize: 20,
-      //             ),
-      //           ),
-      //           SizedBox(height: 20),
-      //           _adsCard(),
-      //           SizedBox(height: 10),
-      //           _controllers(),
-      //           SizedBox(height: 10),
-      //           _groupContainer(),
-      //         ],
-      //       ),
-      //     ),
-      //   ),
       body: SingleChildScrollView(
         child: Stack(
           children: [
@@ -205,7 +164,6 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(10.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
-                    // crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(left: 25.0),
